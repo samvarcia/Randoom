@@ -1,0 +1,62 @@
+@font-face {
+  src: url("./fonts/HelveticaNowText-Bold.ttf");
+  src: url("./fonts/HelveticaNowText-Black.ttf");
+  src: url("./fonts/HelveticaNowText-Regular.ttf");
+  src: url("./fonts/HelveticaNowText-Light.ttf");
+  font-family: HelveticaNow;
+}
+@font-face {
+  src: url("./fonts/recoleta/RecoletaAlt-Bold.ttf");
+  src: url("./fonts/recoleta/RecoletaAlt-Black.ttf");
+  font-family: Recoleta;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #ebece5;
+  text-align: center;
+  font-family: HelveticaNow;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: Recoleta;
+  font-weight: bolder;
+}
+.header-logo {
+  display: flex;
+}
+.orange {
+  background-color: #dd2001;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+.image-container {
+  padding: 4px;
+}
+.image {
+  padding: 5px;
+}
+#images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#daButton {
+  padding: 10px;
+  margin: 5px;
+  background-color: #dd2001;
+  color: #fff;
+  border: none;
+  font-family: HelveticaNow;
+  font-weight: bold;
+  cursor: pointer;
+}
