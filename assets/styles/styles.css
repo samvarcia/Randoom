@@ -2,6 +2,7 @@
   src: url("./fonts/HelveticaNowText-Bold.ttf");
   src: url("./fonts/HelveticaNowText-Black.ttf");
   src: url("./fonts/HelveticaNowText-Regular.ttf");
+  src: url("./fonts/HelveticaNowText-Medium.ttf");
   src: url("./fonts/HelveticaNowText-Light.ttf");
   font-family: HelveticaNow;
 }
@@ -59,4 +60,10 @@ header {
   font-family: HelveticaNow;
   font-weight: bold;
   cursor: pointer;
+}
+.copy-main {
+  font-weight: 700;
+}
+.copy {
+  margin: 10px;
 }
