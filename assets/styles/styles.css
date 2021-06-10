@@ -46,24 +46,46 @@ header {
   padding: 5px;
 }
 #images {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 25%);
+  grid-gap: 5px;
+  justify-content: center;
+  /* grid-template-columns: repeat(4, 25%);
+  gap: 10px; */
 }
-#daButton {
+.button {
   padding: 10px;
-  margin: 5px;
-  background-color: #dd2001;
-  color: #fff;
+  margin: 15px;
   border: none;
   font-family: HelveticaNow;
   font-weight: bold;
   cursor: pointer;
+}
+.create {
+  background-color: #dd2001;
+  color: #fff;
+}
+.eliminate {
+  background-color: #fff;
+  color: #dd2001;
 }
 .copy-main {
   font-weight: 700;
 }
 .copy {
   margin: 10px;
+}
+@media screen and (max-width: 600px) {
+  #images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image {
+    padding: 10px;
+  }
 }
